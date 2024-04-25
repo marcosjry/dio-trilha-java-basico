@@ -25,7 +25,7 @@ public class Usuario {
 
         scanner.close();
 
-        System.out.println("Olá "+usuario.nomeConta+", obrigado por criar uma conta em nosso banco, sua agência é "+usuario.agenciaConta+", conta "+usuario.numeroConta+" e seu saldo "+usuario.saldoConta+" já está disponível para saque.");
+        System.out.println("\nOlá "+usuario.nomeConta+", obrigado por criar uma conta em nosso banco.\nSua agência é "+usuario.agenciaConta+" e sua conta "+usuario.numeroConta+".\nSeu saldo "+usuario.saldoConta+" já está disponível para saque.");
 
     }
 }
